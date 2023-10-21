@@ -1,0 +1,34 @@
+.navigation-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+.navigation-menu li{
+    margin: 0px 30px;
+}
+.navigation-menu li a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.mobile-navigation{
+    list-style: none;
+
+}
+.mobile-navigation li{
+    margin-top: 20px;
+}
+.mobile-navigation li a{
+    text-decoration: none;
+    color: rgb(29, 28, 28);
+    font-size: 1.4rem;
+}
+.mobile-navigation li a:hover{
+    font-size: 1.5rem;
+    color: rgb(15, 15, 16);
+}
